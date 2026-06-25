@@ -1,0 +1,48 @@
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PHP
+vendor/
+composer.lock
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+error_log
+
+# Database
+*.sqlite
+*.db
+
+# Uploads / User data
+public/uploads/*
+
+# Project planning (jangan ikut ter-push)
+issue.md
+prompt.txt
+
+# Temp files
+tmp/
+temp/
+cache/
+
+# Backup files
+*.bak
+*.backup
+*.swp
+*~
+
+# Node (jika ada nanti)
+node_modules/
+package-lock.json
