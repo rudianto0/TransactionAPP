@@ -27,18 +27,29 @@ TransactionAPP/
 
 | Fitur | Status |
 |-------|--------|
-| Login / Logout | Planning |
-| Session Management | Planning |
-| RBAC (Role & Permission) | Planning |
-| CRUD User (via Sidebar + Bootstrap Table) | Planning |
+| Login / Logout | ✅ Done |
+| Session Management | ✅ Done |
+| RBAC (Role & Permission) | ✅ Done |
+| CRUD User (via Sidebar + Bootstrap Table) | ✅ Done |
 
 > ❌ Tidak ada halaman register publik. User dibuat oleh admin dari dalam aplikasi.
+
+## 🚀 Quick Start
+
+1. **Buat database** `transactionapp` di MySQL
+2. **Konfigurasi koneksi** di `src/config/database.php`
+3. **Jalankan migration & seeder:**
+   ```bash
+   php public/migrate.php
+   ```
+4. **Buka browser:** `http://localhost/TransactionAPP`
+5. **Login sebagai admin:** `admin@example.com` / `admin123`
 
 ## 📅 Changelog
 
 | Tanggal | Fase | Deskripsi |
 |---------|------|-----------|
-| 2026-06-25 | Planning | Inisialisasi project, perencanaan Fase 1: Auth System + CRUD User |
+| 2026-06-25 | Fase 1 | Implementasi Auth System + CRUD User (complete) |
 
 ---
 

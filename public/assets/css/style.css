@@ -1,0 +1,42 @@
+/* TransactionAPP — Custom Styles */
+
+body {
+    min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    min-height: calc(100vh - 56px);
+    border-right: 1px solid #dee2e6;
+}
+
+.sidebar .nav-link {
+    color: #333;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    margin: 0.15rem 0.5rem;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #e9ecef;
+}
+
+.sidebar .nav-link.active {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.sidebar .nav-link i {
+    margin-right: 0.5rem;
+}
+
+/* Table */
+.table th {
+    white-space: nowrap;
+}
+
+/* Login Page */
+body.bg-light {
+    background-color: #f8f9fa !important;
+}
