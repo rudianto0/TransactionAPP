@@ -36,19 +36,24 @@ TransactionAPP/
 
 ## 🚀 Quick Start
 
-1. **Buat database** `transactionapp` di MySQL
+1. **Buat database** `transactionapp` di MySQL/MariaDB
 2. **Konfigurasi koneksi** di `src/config/database.php`
 3. **Jalankan migration & seeder:**
    ```bash
    php public/migrate.php
    ```
-4. **Buka browser:** `http://localhost/TransactionAPP`
-5. **Login sebagai admin:** `admin@example.com` / `admin123`
+4. **Jalankan development server:**
+   ```bash
+   php -S localhost:8080 -t public
+   ```
+5. **Buka browser:** `http://localhost:8080`
+6. **Login sebagai admin:** `admin@example.com` / `admin123`
 
 ## 📅 Changelog
 
 | Tanggal | Fase | Deskripsi |
 |---------|------|-----------|
+| 2026-06-26 | — | Fix koneksi database, sticky footer, update dev server setup |
 | 2026-06-25 | Fase 1 | Implementasi Auth System + CRUD User (complete) |
 
 ---
