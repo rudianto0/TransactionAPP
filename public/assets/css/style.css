@@ -1,12 +1,8 @@
 /* TransactionAPP — Custom Styles */
 
-body {
-    min-height: 100vh;
-}
-
 /* Sidebar */
 .sidebar {
-    min-height: calc(100vh - 56px);
+    min-height: 100%;
     border-right: 1px solid #dee2e6;
 }
 
